@@ -1,0 +1,94 @@
+html,body {
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+*,*::before,*::after {
+  box-sizing: inherit;
+}
+html {
+  background-color: #ffffff;
+  line-height: 1.5;
+  font-family: Georgia;
+}
+.pg-header {
+  background-color: #ffe500;
+  width:100%;
+  
+
+}
+.pg-header h1,main h2 {
+  font-family: 'Sigmar One', cursive;
+  color: #b20953;
+}
+.pg-header h1 {
+  font-size:3rem;
+  margin:0;
+  text-align: center;
+  
+}
+.pg-header ul {
+  list-style-type:none;
+  padding:0;
+  margin:0;
+  text-align: center;
+}
+.pg-header li {
+  display: inline-block;
+  margin: 0 .3em .3em 0;
+}
+.pg-header li:first-child {
+  margin-left:.3em;
+}
+.pg-header nav a {
+  display: inline-block;
+  font-size: 1.125rem;
+  text-decoration: none;
+  color: #fff;
+  background-color: #b2a212;
+  padding: .2em .5em .3em;
+  border-radius: 4px;
+}
+.pg-header nav a:hover {
+    background-color: #b20953;
+
+}
+.pg-header nav a.current {
+  background-color: #b20953;
+}
+
+main h2 {
+  font-size:1.875rem;
+  text-align: center;
+  margin-bottom:0;
+}
+main h2.subpage{
+      text-align: left;
+      margin-left: .67em;
+    }
+main figure {
+  margin:1.6em 0.78em 0;
+}
+main img {
+  width:100%;
+}
+main p {
+  font-size:1rem;
+  padding:1em;
+  margin:0;
+}
+footer{
+  background-color: #ffe500;
+  text-align: center;
+  font-size: 0.75rem;
+  padding:1.67em;
+}
+
+
+
+
+
+
+
+
+
